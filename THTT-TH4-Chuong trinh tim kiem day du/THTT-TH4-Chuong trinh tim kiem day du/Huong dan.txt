@@ -1,0 +1,22 @@
+﻿1. ĐỌC HIỂU VÀ CHẠY THỬ CHƯƠNG TRÌNH TÌM KIẾM
+
+Thư mục "Wiki Docs":
+  - Có 10 văn bản về các ngôn ngữ lập trình (lấy từ Wikipedia).
+  - Mỗi file gồm dòng đầu tiên là tiêu đề (title) và phần còn lại là nội dung (content).
+
+File "index.py":
+  - Chương trình Python để lập chỉ mục (index).
+  - Lược đồ (schema) của chỉ mục gồm các trường title, path và content.
+
+File "search.py":
+  - Chương trình Python để tìm kiếm (search).
+  - Người dùng phải gõ vào xâu truy vấn.
+  - Chương trình hiện ra các kết quả, mỗi kết quả gồm số thứ tự, tên file, tiêu đề và điểm số (ở đây là số lần xâu truy vấn xuất hiện trong mỗi văn bản, nhưng có thể thay bằng loại điểm số khác).
+  - Người dùng gõ tiếp số thứ tự kết quả (từ 0 trở đi) để xem chi tiết nội dung file.
+
+
+2. THỬ NGHIỆM THÊM VỚI CHƯƠNG TRÌNH TÌM KIẾM ĐÃ CHO
+
+- Câu truy vấn gồm nhiều từ kết nối với nhau bằng các phép AND, OR và NOT.
+- Câu truy vấn chứa ký tự đại diện (dấu *).
+- Tìm hiểu và thử các hàm chấm điểm (scoring) khác.
